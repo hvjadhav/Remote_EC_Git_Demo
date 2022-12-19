@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Remote_EC_Git_Demo",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.terminal.executeInFileDir": true
+	}
+}

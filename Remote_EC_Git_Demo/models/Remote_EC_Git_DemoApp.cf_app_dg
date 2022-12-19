@@ -1,0 +1,4151 @@
+{
+	"cells": [
+		{
+			"type": "cofluent.component.Application",
+			"markup": [
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "rect",
+					"selector": "header"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"size": {
+				"width": 100,
+				"height": 100
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"preSimulation": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"postElaboration": {
+					"type": "EString",
+					"annotations": {
+						"type": "postElaboration"
+					}
+				},
+				"globalTypeDeclarations": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"globalDeclarations": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"globalDefinitions": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"setIsimAttrCallback": {
+					"type": "EString",
+					"annotations": {
+						"type": "setIsimAttrCallback"
+					}
+				},
+				"getCustomizedObjectName": {
+					"type": "EString",
+					"annotations": {
+						"type": null
+					}
+				},
+				"parallel": {
+					"type": "EBoolean",
+					"annotations": {}
+				},
+				"cf_ID": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"blackbox": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"cyclePeriod": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "10"
+					}
+				},
+				"affinity": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"priority": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"schedulingPolicy": {
+					"annotations": {
+						"defaultValue": "FIFO"
+					},
+					"display": "none"
+				},
+				"InterfaceBlockingBehavior": {
+					"annotations": {
+						"defaultValue": "RELEASE_CORE"
+					},
+					"display": "none"
+				},
+				"timeSlicePeriod": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ms",
+						"defaultValue": "10"
+					},
+					"display": "none"
+				},
+				"staticCodeSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"staticDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"staticPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"cost": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "USD",
+						"defaultValue": "0"
+					},
+					"display": "none"
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "100"
+					},
+					"display": "none"
+				},
+				"allowContainedMembersToAccess": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"boostDestructorPerformance": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"constructor": {
+					"type": "EString",
+					"annotations": {
+						"type": "constructor"
+					}
+				},
+				"includes": {
+					"type": "EString",
+					"annotations": {
+						"type": "includes"
+					}
+				},
+				"postSimulation": {
+					"type": "EString",
+					"annotations": {
+						"type": "postSimulation"
+					}
+				},
+				"target": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"destructor": {
+					"type": "EString",
+					"annotations": {
+						"type": "destructor"
+					}
+				},
+				"declarations": {
+					"type": "EString",
+					"annotations": {
+						"type": "declarations"
+					}
+				},
+				"definitions": {
+					"type": "EString",
+					"annotations": {
+						"type": "definitions"
+					}
+				},
+				"preElaboration": {
+					"type": "EString",
+					"annotations": {
+						"type": "preElaboration"
+					}
+				},
+				"initializations": {
+					"type": "EString",
+					"annotations": {
+						"type": "initializations"
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "Remote_EC_Git_DemoApp"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"enableISIM": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"simicsClassName": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"simicsObjectName": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"useModuleName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"useCustomizedName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				}
+			},
+			"cof_eClassName": "Application",
+			"id": "_8jSgP-y_ARWF85AR9dEMaA",
+			"z": 0,
+			"fixSize": true,
+			"embeds": [
+				"_YAD6ddCDM0Q4R8YBJkuPlL"
+			],
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "Remote_EC_Git_DemoApp"
+					}
+				},
+				".": {
+					"display": "none"
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Structure",
+			"markup": [
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 0,
+				"y": 24
+			},
+			"size": {
+				"width": 100,
+				"height": 80
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "Remote_EC_Git_DemoAppSt"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Structure",
+			"id": "_YAD6ddCDM0Q4R8YBJkuPlL",
+			"z": 1,
+			"fixSize": true,
+			"parent": "_8jSgP-y_ARWF85AR9dEMaA",
+			"embeds": [
+				"_SnQqbGZCA0BZdUQ4aVoIME",
+				"_MQJtIz8bGBgkaCFqeG80RX",
+				"_W46_S_7Ks3yJSG6yy9M8BC",
+				"_6Um9MX8u_aSvFsYzjifDd1",
+				"_a5z8t7x2QIOLA90FYa2zVS"
+			],
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "Remote_EC_Git_DemoAppSt"
+					}
+				},
+				".": {
+					"display": "none"
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Function",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "multiInstanceIcon"
+				},
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "rect",
+					"selector": "header"
+				},
+				{
+					"tagName": "image",
+					"selector": "icon"
+				},
+				{
+					"tagName": "path",
+					"selector": "divider"
+				},
+				{
+					"tagName": "image",
+					"selector": "background"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				},
+				{
+					"tagName": "image",
+					"selector": "shortcut"
+				},
+				{
+					"tagName": "image",
+					"selector": "isimIcon"
+				},
+				{
+					"tagName": "image",
+					"selector": "isimAttributesIcon"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "image",
+					"selector": "window"
+				},
+				{
+					"tagName": "path",
+					"selector": "cross"
+				}
+			],
+			"position": {
+				"x": -152,
+				"y": 48
+			},
+			"size": {
+				"width": 100,
+				"height": 280
+			},
+			"ports": {
+				"groups": {
+					"port": {
+						"markup": "<rect />",
+						"position": {
+							"name": "top",
+							"args": {
+								"x": 0,
+								"y": 0
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "port",
+						"args": {},
+						"attrs": {
+							"rect": {
+								"width": 100,
+								"height": 280,
+								"fill": "#ff0000",
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"z": 4,
+						"id": "_ZhDt7X9vBhZ_bwYWf28Gj_"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"setIsimAttrCallback": {
+					"type": "EString",
+					"annotations": {
+						"type": "setIsimAttrCallback"
+					}
+				},
+				"getCustomizedObjectName": {
+					"type": "EString",
+					"annotations": {
+						"type": null
+					}
+				},
+				"coSimulationType": {
+					"annotations": {
+						"defaultValue": "NONE_COSIM"
+					}
+				},
+				"parallel": {
+					"type": "EBoolean",
+					"annotations": {}
+				},
+				"cf_ID": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"empty_function_enable": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"blackbox": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"cyclePeriod": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": ""
+					}
+				},
+				"scope": {
+					"annotations": {
+						"defaultValue": "SYSTEM"
+					}
+				},
+				"doNotStart": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"affinity": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"priority": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "0"
+					}
+				},
+				"schedulingPolicy": {
+					"annotations": {
+						"defaultValue": "FIFO"
+					}
+				},
+				"InterfaceBlockingBehavior": {
+					"annotations": {
+						"defaultValue": "RELEASE_CORE"
+					}
+				},
+				"timeSlicePeriod": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ms",
+						"defaultValue": "10"
+					}
+				},
+				"staticCodeSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"staticDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"staticPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": "0"
+					}
+				},
+				"cost": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "USD",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "100"
+					}
+				},
+				"allowContainedMembersToAccess": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"doNotInstance": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"postElaboration": {
+					"type": "EString",
+					"annotations": {
+						"type": "postElaboration"
+					}
+				},
+				"boostDestructorPerformance": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"constructor": {
+					"type": "EString",
+					"annotations": {
+						"type": "constructor"
+					}
+				},
+				"includes": {
+					"type": "EString",
+					"annotations": {
+						"type": "includes"
+					}
+				},
+				"postSimulation": {
+					"type": "EString",
+					"annotations": {
+						"type": "postSimulation"
+					}
+				},
+				"target": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "SystemC"
+					}
+				},
+				"destructor": {
+					"type": "EString",
+					"annotations": {
+						"type": "destructor"
+					}
+				},
+				"declarations": {
+					"type": "EString",
+					"annotations": {
+						"type": "declarations"
+					}
+				},
+				"definitions": {
+					"type": "EString",
+					"annotations": {
+						"type": "definitions"
+					}
+				},
+				"preElaboration": {
+					"type": "EString",
+					"annotations": {
+						"type": "preElaboration"
+					}
+				},
+				"initializations": {
+					"type": "EString",
+					"annotations": {
+						"type": "initializations"
+					}
+				},
+				"includeInheritedHeader": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"inheritanceClass": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"callToInheritedConstructors": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "Producer"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"max": {
+					"type": "RangeLimit",
+					"integerLimit": null,
+					"designParameter": null,
+					"annotations": {}
+				},
+				"enableISIM": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"simicsClassName": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"simicsObjectName": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"useModuleName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"useCustomizedName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				}
+			},
+			"cof_eClassName": "Function",
+			"id": "_W46_S_7Ks3yJSG6yy9M8BC",
+			"z": 2,
+			"parent": "_YAD6ddCDM0Q4R8YBJkuPlL",
+			"embeds": [
+				"_6JHFwwmDcKt3rthASV2CDP",
+				"_HNXCo7MKOMqraUExr238nl"
+			],
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "Producer"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Behavior",
+			"markup": [
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": -152,
+				"y": 72
+			},
+			"size": {
+				"width": 100,
+				"height": 256
+			},
+			"ports": {
+				"groups": {
+					"firstStatement": {
+						"position": {
+							"name": "top",
+							"args": {
+								"y": 30
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "firstStatement",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 6,
+								"fill": "#000000",
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_-fD9g-vK-2F0ZW1lbnTwn5"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "ProducerBh"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Behavior",
+			"id": "_6JHFwwmDcKt3rthASV2CDP",
+			"embeds": [
+				"_M24VfUlKZlpsRVQbJQ87TU",
+				"_F1AoZWpqSDhwKghTalh7TU",
+				"_Ik9IU0drYmJmUjcCYU4ycm",
+				"_BisXTw1ZbzBYS2hpZHENWT",
+				"_b3pkVDNeTj1JExcRXTlPNX",
+				"_PThVaUdWCmsubF11Un51aE",
+				"_xTTWFnSOLw3b9V5wBU6JoY",
+				"_g8vV1tkurURRO7Y8XTi1mn",
+				"_PjcNRTLtwm2Yv5riWXxlnL",
+				"_h6hpgkMvuhqUXbMMlXH_lB"
+			],
+			"z": 3,
+			"parent": "_W46_S_7Ks3yJSG6yy9M8BC",
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "ProducerBh"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Operation",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": -127,
+				"y": 128
+			},
+			"size": {
+				"width": 50,
+				"height": 22
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "bottom",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"algorithm": {
+					"type": "EString",
+					"annotations": {
+						"type": "algorithm"
+					}
+				},
+				"executionTime": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "10"
+					}
+				},
+				"nonBlocking": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicRead": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicWrite": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"abortPort": {
+					"type": "Port",
+					"validPorts": {},
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"dynamicDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": ""
+					}
+				},
+				"type": {
+					"annotations": {
+						"defaultValue": "ACTIVE"
+					}
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "init"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Operation",
+			"id": "_xTTWFnSOLw3b9V5wBU6JoY",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 4,
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "init"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.LoopStatement",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "condition"
+				}
+			],
+			"position": {
+				"x": -119.5,
+				"y": 168
+			},
+			"size": {
+				"width": 35,
+				"height": 35
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "right",
+							"args": {}
+						}
+					},
+					"firstStatement": {
+						"position": {
+							"name": "bottom",
+							"args": {}
+						}
+					},
+					"lastStatement": {
+						"position": {
+							"name": "left",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					},
+					{
+						"group": "firstStatement",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_-fD9g-vK-2F0ZW1lbnTwn5"
+					},
+					{
+						"group": "lastStatement",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9e6D68r7ketlbWVudPCfmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"condition": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"type": {
+					"annotations": {}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "LoopStatement"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "LoopStatement",
+			"id": "_g8vV1tkurURRO7Y8XTi1mn",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 5,
+			"attrs": {}
+		},
+		{
+			"type": "cofluent.component.Operation",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": -132,
+				"y": 228
+			},
+			"size": {
+				"width": 60,
+				"height": 22
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "bottom",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"algorithm": {
+					"type": "EString",
+					"annotations": {
+						"type": "algorithm"
+					}
+				},
+				"executionTime": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "10"
+					}
+				},
+				"nonBlocking": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicRead": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicWrite": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"abortPort": {
+					"type": "Port",
+					"validPorts": {},
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"dynamicDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": ""
+					}
+				},
+				"type": {
+					"annotations": {
+						"defaultValue": "ACTIVE"
+					}
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "produce"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Operation",
+			"id": "_PjcNRTLtwm2Yv5riWXxlnL",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 6,
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "produce"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.OutputAction",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "condition"
+				}
+			],
+			"position": {
+				"x": -105,
+				"y": 268
+			},
+			"size": {
+				"width": 26,
+				"height": 18
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {
+								"x": 3
+							}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "bottom",
+							"args": {
+								"x": 3
+							}
+						}
+					},
+					"port_outputSelector": {
+						"position": {
+							"name": "right",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					},
+					{
+						"group": "port_outputSelector",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_ExsdBl9vdXRwdXRTZWxlY3"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"duration": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": ""
+					}
+				},
+				"condition": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"priority": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"vectorSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"blocking": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "true"
+					}
+				},
+				"call": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "OutputAction"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "OutputAction",
+			"id": "_h6hpgkMvuhqUXbMMlXH_lB",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 7,
+			"attrs": {}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_6JHFwwmDcKt3rthASV2CDP",
+				"port": "_-fD9g-vK-2F0ZW1lbnTwn5"
+			},
+			"target": {
+				"id": "_xTTWFnSOLw3b9V5wBU6JoY",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_PThVaUdWCmsubF11Un51aE",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 8,
+			"pathPoints": [
+				{
+					"x": -102,
+					"y": 102
+				},
+				{
+					"x": -102,
+					"y": 128
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_xTTWFnSOLw3b9V5wBU6JoY",
+				"port": "_9-qI68bmg9Nhc3RPZvCfmY"
+			},
+			"target": {
+				"id": "_g8vV1tkurURRO7Y8XTi1mn",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_b3pkVDNeTj1JExcRXTlPNX",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 9,
+			"pathPoints": [
+				{
+					"x": -102,
+					"y": 150
+				},
+				{
+					"x": -102,
+					"y": 159
+				},
+				{
+					"x": -101.5,
+					"y": 159
+				},
+				{
+					"x": -101.5,
+					"y": 168
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_g8vV1tkurURRO7Y8XTi1mn",
+				"port": "_-fD9g-vK-2F0ZW1lbnTwn5"
+			},
+			"target": {
+				"id": "_PjcNRTLtwm2Yv5riWXxlnL",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_BisXTw1ZbzBYS2hpZHENWT",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 10,
+			"pathPoints": [
+				{
+					"x": -101.5,
+					"y": 203
+				},
+				{
+					"x": -101.5,
+					"y": 215.5
+				},
+				{
+					"x": -102,
+					"y": 215.5
+				},
+				{
+					"x": -102,
+					"y": 228
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_PjcNRTLtwm2Yv5riWXxlnL",
+				"port": "_9-qI68bmg9Nhc3RPZvCfmY"
+			},
+			"target": {
+				"id": "_h6hpgkMvuhqUXbMMlXH_lB",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_Ik9IU0drYmJmUjcCYU4ycm",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 11,
+			"pathPoints": [
+				{
+					"x": -102,
+					"y": 250
+				},
+				{
+					"x": -102,
+					"y": 268
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_h6hpgkMvuhqUXbMMlXH_lB",
+				"port": "_9-qI68bmg9Nhc3RPZvCfmY"
+			},
+			"target": {
+				"id": "_g8vV1tkurURRO7Y8XTi1mn",
+				"port": "_9e6D68r7ketlbWVudPCfmY"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_F1AoZWpqSDhwKghTalh7TU",
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"z": 12,
+			"vertices": [
+				{
+					"x": -145.7,
+					"y": 286
+				},
+				{
+					"x": -145.7,
+					"y": 186
+				}
+			],
+			"pathPoints": [
+				{
+					"x": -102,
+					"y": 286
+				},
+				{
+					"x": -145.7,
+					"y": 286
+				},
+				{
+					"x": -145.7,
+					"y": 186
+				},
+				{
+					"x": -119.5,
+					"y": 186
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Function",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "multiInstanceIcon"
+				},
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "rect",
+					"selector": "header"
+				},
+				{
+					"tagName": "image",
+					"selector": "icon"
+				},
+				{
+					"tagName": "path",
+					"selector": "divider"
+				},
+				{
+					"tagName": "image",
+					"selector": "background"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				},
+				{
+					"tagName": "image",
+					"selector": "shortcut"
+				},
+				{
+					"tagName": "image",
+					"selector": "isimIcon"
+				},
+				{
+					"tagName": "image",
+					"selector": "isimAttributesIcon"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "image",
+					"selector": "window"
+				},
+				{
+					"tagName": "path",
+					"selector": "cross"
+				}
+			],
+			"position": {
+				"x": 271,
+				"y": 58
+			},
+			"size": {
+				"width": 100,
+				"height": 280
+			},
+			"ports": {
+				"groups": {
+					"port": {
+						"markup": "<rect />",
+						"position": {
+							"name": "top",
+							"args": {
+								"x": 0,
+								"y": 0
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "port",
+						"args": {},
+						"attrs": {
+							"rect": {
+								"width": 100,
+								"height": 280,
+								"fill": "#ff0000",
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"z": 4,
+						"id": "_ZhDt7X9vBhZ_bwYWf28Gj_"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"setIsimAttrCallback": {
+					"type": "EString",
+					"annotations": {
+						"type": "setIsimAttrCallback"
+					}
+				},
+				"getCustomizedObjectName": {
+					"type": "EString",
+					"annotations": {
+						"type": null
+					}
+				},
+				"coSimulationType": {
+					"annotations": {
+						"defaultValue": "NONE_COSIM"
+					}
+				},
+				"parallel": {
+					"type": "EBoolean",
+					"annotations": {}
+				},
+				"cf_ID": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"empty_function_enable": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"blackbox": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"cyclePeriod": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": ""
+					}
+				},
+				"scope": {
+					"annotations": {
+						"defaultValue": "SYSTEM"
+					}
+				},
+				"doNotStart": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"affinity": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"priority": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "0"
+					}
+				},
+				"schedulingPolicy": {
+					"annotations": {
+						"defaultValue": "FIFO"
+					}
+				},
+				"InterfaceBlockingBehavior": {
+					"annotations": {
+						"defaultValue": "RELEASE_CORE"
+					}
+				},
+				"timeSlicePeriod": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ms",
+						"defaultValue": "10"
+					}
+				},
+				"staticCodeSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"staticDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"staticPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": "0"
+					}
+				},
+				"cost": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "USD",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "100"
+					}
+				},
+				"allowContainedMembersToAccess": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"doNotInstance": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"postElaboration": {
+					"type": "EString",
+					"annotations": {
+						"type": "postElaboration"
+					}
+				},
+				"boostDestructorPerformance": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"constructor": {
+					"type": "EString",
+					"annotations": {
+						"type": "constructor"
+					}
+				},
+				"includes": {
+					"type": "EString",
+					"annotations": {
+						"type": "includes"
+					}
+				},
+				"postSimulation": {
+					"type": "EString",
+					"annotations": {
+						"type": "postSimulation"
+					}
+				},
+				"target": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "SystemC"
+					}
+				},
+				"destructor": {
+					"type": "EString",
+					"annotations": {
+						"type": "destructor"
+					}
+				},
+				"declarations": {
+					"type": "EString",
+					"annotations": {
+						"type": "declarations"
+					}
+				},
+				"definitions": {
+					"type": "EString",
+					"annotations": {
+						"type": "definitions"
+					}
+				},
+				"preElaboration": {
+					"type": "EString",
+					"annotations": {
+						"type": "preElaboration"
+					}
+				},
+				"initializations": {
+					"type": "EString",
+					"annotations": {
+						"type": "initializations"
+					}
+				},
+				"includeInheritedHeader": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"inheritanceClass": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"callToInheritedConstructors": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "Consumer"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"max": {
+					"type": "RangeLimit",
+					"integerLimit": null,
+					"designParameter": null,
+					"annotations": {}
+				},
+				"enableISIM": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"simicsClassName": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"simicsObjectName": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"useModuleName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"useCustomizedName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				}
+			},
+			"cof_eClassName": "Function",
+			"id": "_6Um9MX8u_aSvFsYzjifDd1",
+			"z": 13,
+			"parent": "_YAD6ddCDM0Q4R8YBJkuPlL",
+			"embeds": [
+				"_tZYBt2ubpaKLLGYgIQb272",
+				"_igNgRCgSFwlLbk4Mj9BIrB"
+			],
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "Consumer"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Behavior",
+			"markup": [
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 271,
+				"y": 82
+			},
+			"size": {
+				"width": 100,
+				"height": 256
+			},
+			"ports": {
+				"groups": {
+					"firstStatement": {
+						"position": {
+							"name": "top",
+							"args": {
+								"y": 30
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "firstStatement",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 6,
+								"fill": "#000000",
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_-fD9g-vK-2F0ZW1lbnTwn5"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "ConsumerBh"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Behavior",
+			"id": "_tZYBt2ubpaKLLGYgIQb272",
+			"embeds": [
+				"_eENeI3Z8VBFrP2hNeDJANE",
+				"_Tm50WXE7ZgdTTUlLV2ZtOV",
+				"_ajJ2bn44c0oBRGJHUGoAZ0",
+				"_C0NVVWxZURxBO1JnAAJ-R0",
+				"_QndiHW4zUi1wRXFqdlhYNU",
+				"_fntyf0sPYysIfkEbZEtHWW",
+				"_Om6Q2SOhawkIfl5AMfy5S7",
+				"_o04eproyBMF4RUGK65ZNFG",
+				"_HYlaLVcKiOJhXY9_oxVCb1",
+				"_1kpq6oJgSTSge4gHtQEfDY"
+			],
+			"z": 14,
+			"parent": "_6Um9MX8u_aSvFsYzjifDd1",
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "ConsumerBh"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Operation",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 291,
+				"y": 138
+			},
+			"size": {
+				"width": 60,
+				"height": 22
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "bottom",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"algorithm": {
+					"type": "EString",
+					"annotations": {
+						"type": "algorithm"
+					}
+				},
+				"executionTime": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "10"
+					}
+				},
+				"nonBlocking": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicRead": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicWrite": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"abortPort": {
+					"type": "Port",
+					"validPorts": {},
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"dynamicDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": ""
+					}
+				},
+				"type": {
+					"annotations": {
+						"defaultValue": "ACTIVE"
+					}
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "init"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Operation",
+			"id": "_Om6Q2SOhawkIfl5AMfy5S7",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 15,
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "init"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.LoopStatement",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "condition"
+				}
+			],
+			"position": {
+				"x": 303.5,
+				"y": 178
+			},
+			"size": {
+				"width": 35,
+				"height": 35
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "right",
+							"args": {}
+						}
+					},
+					"firstStatement": {
+						"position": {
+							"name": "bottom",
+							"args": {}
+						}
+					},
+					"lastStatement": {
+						"position": {
+							"name": "left",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					},
+					{
+						"group": "firstStatement",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_-fD9g-vK-2F0ZW1lbnTwn5"
+					},
+					{
+						"group": "lastStatement",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9e6D68r7ketlbWVudPCfmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"condition": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"type": {
+					"annotations": {}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "LoopStatement"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "LoopStatement",
+			"id": "_o04eproyBMF4RUGK65ZNFG",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 16,
+			"attrs": {}
+		},
+		{
+			"type": "cofluent.component.Operation",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 286,
+				"y": 278
+			},
+			"size": {
+				"width": 70,
+				"height": 22
+			},
+			"ports": {
+				"groups": {
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "bottom",
+							"args": {}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"algorithm": {
+					"type": "EString",
+					"annotations": {
+						"type": "algorithm"
+					}
+				},
+				"executionTime": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "10"
+					}
+				},
+				"nonBlocking": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicRead": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"systematicWrite": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"abortPort": {
+					"type": "Port",
+					"validPorts": {},
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"dynamicDataSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "kB",
+						"defaultValue": "0"
+					}
+				},
+				"dynamicPowerConsumption": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "uW",
+						"defaultValue": ""
+					}
+				},
+				"type": {
+					"annotations": {
+						"defaultValue": "ACTIVE"
+					}
+				},
+				"dynamicResourceLoad": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "consume"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Operation",
+			"id": "_HYlaLVcKiOJhXY9_oxVCb1",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 17,
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "consume"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.InputAction",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "body1"
+				},
+				{
+					"tagName": "path",
+					"selector": "body2"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "condition"
+				}
+			],
+			"position": {
+				"x": 294,
+				"y": 238
+			},
+			"size": {
+				"width": 35,
+				"height": 15
+			},
+			"ports": {
+				"groups": {
+					"port_inputSelector": {
+						"position": {
+							"name": "left",
+							"args": {}
+						}
+					},
+					"previous_isFirstOf": {
+						"position": {
+							"name": "top",
+							"args": {
+								"x": 27
+							}
+						}
+					},
+					"next_isLastOf": {
+						"position": {
+							"name": "bottom",
+							"args": {
+								"x": 27
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "previous_isFirstOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BD0DdmlvdXNfaXNGaXJzdE"
+					},
+					{
+						"group": "next_isLastOf",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_9-qI68bmg9Nhc3RPZvCfmY"
+					},
+					{
+						"group": "port_inputSelector",
+						"args": {},
+						"attrs": {
+							"circle": {
+								"r": 1,
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"id": "_BAAAdF9pbnB1dFNlbGVjdG"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"timeout": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": ""
+					}
+				},
+				"priority": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"broadcast": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"duration": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": ""
+					}
+				},
+				"vectorSize": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"blocking": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "true"
+					}
+				},
+				"condition": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"doNotRead": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "InputAction"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "InputAction",
+			"id": "_1kpq6oJgSTSge4gHtQEfDY",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 18,
+			"attrs": {}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_tZYBt2ubpaKLLGYgIQb272",
+				"port": "_-fD9g-vK-2F0ZW1lbnTwn5"
+			},
+			"target": {
+				"id": "_Om6Q2SOhawkIfl5AMfy5S7",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_fntyf0sPYysIfkEbZEtHWW",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 19,
+			"pathPoints": [
+				{
+					"x": 321,
+					"y": 112
+				},
+				{
+					"x": 321,
+					"y": 138
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_Om6Q2SOhawkIfl5AMfy5S7",
+				"port": "_9-qI68bmg9Nhc3RPZvCfmY"
+			},
+			"target": {
+				"id": "_o04eproyBMF4RUGK65ZNFG",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_QndiHW4zUi1wRXFqdlhYNU",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 20,
+			"pathPoints": [
+				{
+					"x": 321,
+					"y": 160
+				},
+				{
+					"x": 321,
+					"y": 169
+				},
+				{
+					"x": 321.5,
+					"y": 169
+				},
+				{
+					"x": 321.5,
+					"y": 178
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_o04eproyBMF4RUGK65ZNFG",
+				"port": "_-fD9g-vK-2F0ZW1lbnTwn5"
+			},
+			"target": {
+				"id": "_1kpq6oJgSTSge4gHtQEfDY",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_C0NVVWxZURxBO1JnAAJ-R0",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 21,
+			"pathPoints": [
+				{
+					"x": 321.5,
+					"y": 213
+				},
+				{
+					"x": 321.5,
+					"y": 225.5
+				},
+				{
+					"x": 321,
+					"y": 225.5
+				},
+				{
+					"x": 321,
+					"y": 238
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_1kpq6oJgSTSge4gHtQEfDY",
+				"port": "_9-qI68bmg9Nhc3RPZvCfmY"
+			},
+			"target": {
+				"id": "_HYlaLVcKiOJhXY9_oxVCb1",
+				"port": "_BD0DdmlvdXNfaXNGaXJzdE"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_ajJ2bn44c0oBRGJHUGoAZ0",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 22,
+			"pathPoints": [
+				{
+					"x": 321,
+					"y": 253
+				},
+				{
+					"x": 321,
+					"y": 278
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"id": "_HYlaLVcKiOJhXY9_oxVCb1",
+				"port": "_9-qI68bmg9Nhc3RPZvCfmY"
+			},
+			"target": {
+				"id": "_o04eproyBMF4RUGK65ZNFG",
+				"port": "_9e6D68r7ketlbWVudPCfmY"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_Tm50WXE7ZgdTTUlLV2ZtOV",
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"z": 23,
+			"pathPoints": [
+				{
+					"x": 321,
+					"y": 300
+				},
+				{
+					"x": 321,
+					"y": 305
+				},
+				{
+					"x": 281,
+					"y": 305
+				},
+				{
+					"x": 281,
+					"y": 196
+				},
+				{
+					"x": 303.5,
+					"y": 196
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 5,
+					"strokeOpacity": 0,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#000000",
+					"strokeWidth": 1,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#000000",
+						"stroke": "#000000",
+						"stroke-width": 1,
+						"d": "M 6 -3 0 0 6 3 0 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.MessageQueue",
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "multiInstanceIcon"
+				},
+				{
+					"tagName": "rect",
+					"selector": "handle"
+				},
+				{
+					"tagName": "path",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 95,
+				"y": 178
+			},
+			"size": {
+				"width": 28,
+				"height": 18
+			},
+			"ports": {
+				"groups": {
+					"ports": {
+						"markup": "<rect />",
+						"position": {
+							"name": "top",
+							"args": {
+								"x": -1,
+								"y": -1
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "ports",
+						"args": {},
+						"attrs": {
+							"rect": {
+								"width": 30,
+								"height": 20,
+								"fill": "#ff0000",
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"z": -1,
+						"id": "_duCC6-p_bwYWf28GFn9vmY"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"policy": {
+					"annotations": {}
+				},
+				"capacity": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "1"
+					}
+				},
+				"concurrency": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "1"
+					}
+				},
+				"concurrencyManagement": {
+					"annotations": {
+						"defaultValue": "FULL"
+					}
+				},
+				"sendTime": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "1"
+					}
+				},
+				"receiveTime": {
+					"type": "EString",
+					"annotations": {
+						"defaultUnit": "ns",
+						"defaultValue": "1"
+					}
+				},
+				"sendThreshold": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "1"
+					}
+				},
+				"receiveThreshold": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "1"
+					}
+				},
+				"protocol": {
+					"annotations": {
+						"defaultValue": "COFLUENT"
+					}
+				},
+				"address": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"mask": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"response": {
+					"type": "MessageQueue",
+					"validMessageQueue": {},
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"messageQueueType": {
+					"annotations": {
+						"defaultValue": "STANDARD"
+					}
+				},
+				"callBackOverWrite": {
+					"type": "EString",
+					"annotations": {
+						"type": "callback"
+					}
+				},
+				"chiselCosimInterfaceProtocol": {
+					"annotations": {
+						"defaultValue": "COFLUENT_DPI_INTERFACE"
+					}
+				},
+				"cosimChiselAxiDataWidth": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "64"
+					}
+				},
+				"cosimChiselAxiAddressWidth": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "32"
+					}
+				},
+				"cosimChiselAxiCombine": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"cosimChiselDataPortBits": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"relationType": {
+					"type": "IRelationType",
+					"relationTypeClass": "RelationPredefinedType",
+					"relationTypeAttrs": {
+						"predefinedType": "INTEGER"
+					},
+					"annotations": {}
+				},
+				"parallel": {
+					"type": "EBoolean",
+					"annotations": {}
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "MsgQ"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				},
+				"max": {
+					"type": "RangeLimit",
+					"integerLimit": null,
+					"designParameter": null,
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "MessageQueue",
+			"id": "_a5z8t7x2QIOLA90FYa2zVS",
+			"z": 24,
+			"parent": "_YAD6ddCDM0Q4R8YBJkuPlL",
+			"attrs": {}
+		},
+		{
+			"type": "cofluent.component.Port",
+			"markup": [
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": -52,
+				"y": 181
+			},
+			"size": {
+				"width": 12,
+				"height": 12
+			},
+			"ports": {
+				"groups": {
+					"outputActions_inputActions_inputSelectorInputs_outputSelectorOutputs_relations_port_ports_operations": {
+						"markup": "<rect />",
+						"position": {
+							"name": "top",
+							"args": {
+								"x": 0,
+								"y": 0
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "outputActions_inputActions_inputSelectorInputs_outputSelectorOutputs_relations_port_ports_operations",
+						"attrs": {
+							"rect": {
+								"width": 12,
+								"height": 12,
+								"fill": "#ff0000",
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"z": -1,
+						"id": "_dX9eTU1sTGJJYTMkHDc0bn"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"type": {
+					"annotations": {
+						"defaultValue": "MESSAGE_QUEUE"
+					},
+					"display": "none"
+				},
+				"direction": {
+					"annotations": {
+						"defaultValue": "OUT"
+					},
+					"display": "none"
+				},
+				"size": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					},
+					"display": "none"
+				},
+				"synchronizeName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "true"
+					}
+				},
+				"protocol": {
+					"annotations": {
+						"defaultValue": "COFLUENT"
+					}
+				},
+				"socketType": {
+					"annotations": {
+						"defaultValue": "INITIATOR"
+					},
+					"display": "none"
+				},
+				"constructorArguments": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"templateArguments": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"vector": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"requestPipelineDepth": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "1"
+					},
+					"display": "none"
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "MsgQ"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Port",
+			"id": "_HNXCo7MKOMqraUExr238nl",
+			"z": 25,
+			"parent": "_W46_S_7Ks3yJSG6yy9M8BC",
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "MsgQ:MQ(Out)"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"port": "_dX9eTU1sTGJJYTMkHDc0bn",
+				"anchor": null,
+				"id": "_HNXCo7MKOMqraUExr238nl"
+			},
+			"target": {
+				"port": "_duCC6-p_bwYWf28GFn9vmY",
+				"id": "_a5z8t7x2QIOLA90FYa2zVS"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_MQJtIz8bGBgkaCFqeG80RX",
+			"z": 26,
+			"parent": "_YAD6ddCDM0Q4R8YBJkuPlL",
+			"pathPoints": [
+				{
+					"x": -46,
+					"y": 187
+				},
+				{
+					"x": 109,
+					"y": 187
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#3e69ff",
+					"strokeWidth": 5,
+					"strokeOpacity": 1,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 3,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#ffffff",
+						"stroke": "#3e69ff",
+						"stroke-width": 1,
+						"d": "M 8 -8 -2 0 8 8 -2 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"port": "_ExsdBl9vdXRwdXRTZWxlY3",
+				"id": "_h6hpgkMvuhqUXbMMlXH_lB"
+			},
+			"target": {
+				"port": "_dX9eTU1sTGJJYTMkHDc0bn",
+				"anchor": null,
+				"id": "_HNXCo7MKOMqraUExr238nl"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_M24VfUlKZlpsRVQbJQ87TU",
+			"z": 27,
+			"parent": "_6JHFwwmDcKt3rthASV2CDP",
+			"pathPoints": [
+				{
+					"x": -79,
+					"y": 277
+				},
+				{
+					"x": -62.5,
+					"y": 277
+				},
+				{
+					"x": -62.5,
+					"y": 187
+				},
+				{
+					"x": -46,
+					"y": 187
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#3e69ff",
+					"strokeWidth": 5,
+					"strokeOpacity": 1,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 3,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#ffffff",
+						"stroke": "#3e69ff",
+						"stroke-width": 1,
+						"d": "M 8 -8 -2 0 8 8 -2 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "cofluent.component.Port",
+			"markup": [
+				{
+					"tagName": "rect",
+					"selector": "body"
+				},
+				{
+					"tagName": "image",
+					"selector": "documentIcon"
+				},
+				{
+					"tagName": "text",
+					"selector": "label"
+				}
+			],
+			"position": {
+				"x": 259,
+				"y": 181
+			},
+			"size": {
+				"width": 12,
+				"height": 12
+			},
+			"ports": {
+				"groups": {
+					"outputActions_inputActions_inputSelectorInputs_outputSelectorOutputs_relations_port_ports_operations": {
+						"markup": "<rect />",
+						"position": {
+							"name": "top",
+							"args": {
+								"x": 0,
+								"y": 0
+							}
+						}
+					}
+				},
+				"items": [
+					{
+						"group": "outputActions_inputActions_inputSelectorInputs_outputSelectorOutputs_relations_port_ports_operations",
+						"attrs": {
+							"rect": {
+								"width": 12,
+								"height": 12,
+								"fill": "#ff0000",
+								"fillOpacity": 0,
+								"pointerEvents": "stroke",
+								"strokeWidth": 10,
+								"stroke": "#feb663",
+								"strokeOpacity": 0,
+								"magnet": true
+							}
+						},
+						"z": -1,
+						"id": "_dX9eTU1sTGJJYTMkHDc0bn"
+					}
+				]
+			},
+			"angle": 0,
+			"cof_attrs": {
+				"type": {
+					"annotations": {
+						"defaultValue": "MESSAGE_QUEUE"
+					},
+					"display": "none"
+				},
+				"direction": {
+					"annotations": {
+						"defaultValue": "IN"
+					},
+					"display": "none"
+				},
+				"size": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					},
+					"display": "none"
+				},
+				"synchronizeName": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "true"
+					}
+				},
+				"protocol": {
+					"annotations": {
+						"defaultValue": "COFLUENT"
+					}
+				},
+				"socketType": {
+					"annotations": {
+						"defaultValue": "INITIATOR"
+					},
+					"display": "none"
+				},
+				"constructorArguments": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"templateArguments": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": ""
+					}
+				},
+				"vector": {
+					"type": "EBoolean",
+					"annotations": {
+						"defaultValue": "false"
+					}
+				},
+				"requestPipelineDepth": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "1"
+					},
+					"display": "none"
+				},
+				"name": {
+					"type": "EString",
+					"annotations": {
+						"defaultValue": "MsgQ"
+					}
+				},
+				"documentation": {
+					"type": "EString",
+					"annotations": {}
+				}
+			},
+			"cof_eClassName": "Port",
+			"id": "_igNgRCgSFwlLbk4Mj9BIrB",
+			"z": 28,
+			"parent": "_6Um9MX8u_aSvFsYzjifDd1",
+			"attrs": {
+				"label": {
+					"textWrap": {
+						"text": "MsgQ:MQ(In)"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"port": "_duCC6-p_bwYWf28GFn9vmY",
+				"id": "_a5z8t7x2QIOLA90FYa2zVS"
+			},
+			"target": {
+				"port": "_dX9eTU1sTGJJYTMkHDc0bn",
+				"anchor": null,
+				"id": "_igNgRCgSFwlLbk4Mj9BIrB"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_SnQqbGZCA0BZdUQ4aVoIME",
+			"z": 29,
+			"parent": "_YAD6ddCDM0Q4R8YBJkuPlL",
+			"pathPoints": [
+				{
+					"x": 109,
+					"y": 187
+				},
+				{
+					"x": 265,
+					"y": 187
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#3e69ff",
+					"strokeWidth": 5,
+					"strokeOpacity": 1,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 3,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#ffffff",
+						"stroke": "#3e69ff",
+						"stroke-width": 1,
+						"d": "M 8 -8 -2 0 8 8 -2 0 Z"
+					}
+				}
+			}
+		},
+		{
+			"type": "link",
+			"source": {
+				"port": "_dX9eTU1sTGJJYTMkHDc0bn",
+				"id": "_igNgRCgSFwlLbk4Mj9BIrB"
+			},
+			"target": {
+				"port": "_BAAAdF9pbnB1dFNlbGVjdG",
+				"anchor": null,
+				"id": "_1kpq6oJgSTSge4gHtQEfDY"
+			},
+			"markup": [
+				{
+					"tagName": "path",
+					"selector": "wrapper"
+				},
+				{
+					"tagName": "path",
+					"selector": "core"
+				}
+			],
+			"defaultLabel": {
+				"attrs": {
+					"rect": {
+						"fillOpacity": 0
+					}
+				},
+				"position": {
+					"distance": -30,
+					"args": {
+						"absoluteDistance": true
+					}
+				}
+			},
+			"id": "_eENeI3Z8VBFrP2hNeDJANE",
+			"z": 30,
+			"parent": "_tZYBt2ubpaKLLGYgIQb272",
+			"pathPoints": [
+				{
+					"x": 265,
+					"y": 187
+				},
+				{
+					"x": 279.5,
+					"y": 187
+				},
+				{
+					"x": 279.5,
+					"y": 246
+				},
+				{
+					"x": 294,
+					"y": 246
+				}
+			],
+			"attrs": {
+				"wrapper": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#3e69ff",
+					"strokeWidth": 5,
+					"strokeOpacity": 1,
+					"strokeLinejoin": "bevel"
+				},
+				"core": {
+					"connection": true,
+					"fill": "none",
+					"stroke": "#ffffff",
+					"strokeWidth": 3,
+					"strokeDasharray": "",
+					"strokeLinejoin": "bevel",
+					"targetMarker": {
+						"type": "path",
+						"fill": "#ffffff",
+						"stroke": "#3e69ff",
+						"stroke-width": 1,
+						"d": "M 8 -8 -2 0 8 8 -2 0 Z"
+					}
+				}
+			}
+		}
+	],
+	"communicationPath": "",
+	"loadEnding": "2022-12-19T17:52:08.062Z",
+	"DIAGRAM_VERSION": "0.5.6"
+}
